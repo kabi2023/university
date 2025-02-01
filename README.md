@@ -15,7 +15,7 @@ University Website is a fully responsive website designed to provide a modern an
 - **Git & GitHub** – Version control and code management
 
 ## 🌐 Live Demo
-Check out the live website: [University Website](https://publish-company.netlify.app/)
+Check out the live website: [University Website](https://eduford-for-you.netlify.app/)
 
 ## 📌 How to Use
 1. Open the website link in any modern browser.
