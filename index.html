@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University-Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link
+        href="https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic"
+        rel="stylesheet" />
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#course">ABOUT</a></li>
+                    <li><a href="#campus">CAMPUS</a></li>
+                    <li><a href="#review">REVIEW</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <div class="text-box" id="home">
+            <h1>World's Biggest University</h1>
+            <p>Achieve Excellence, Empower Your Future.
+                Join a community of scholars, <br> innovators, and leaders dedicated to shaping the future!</p>
+            <a href="" class="button-text">Visit Us To know More</a>
+        </div>
+    </section>
+
+    <section class="course" id="course">
+        <h1>Courses We Offer</h1>
+        <p>Undergraduate & Postgraduate Program</p>
+        <div class="row">
+            <div class="colmn">
+                <h3>Computer Science</h3>
+                <p>Explore the world of technology with cutting-edge courses in programming, artificial intelligence,
+                    cybersecurity, and software development.</p>
+            </div>
+            <div class="colmn">
+                <h3>Business</h3>
+                <p>Gain leadership skills and business acumen through courses in finance, marketing, management, and
+                    entrepreneurship.</p>
+            </div>
+            <div class="colmn">
+                <h3>Arts & Humanities</h3>
+                <p>Engage in critical thinking, creativity, and cultural exploration with disciplines like literature,
+                    philosophy, history, and fine arts.</p>
+            </div>
+        </div>
+    </section>
+    <section class="campus" id="campus">
+        <h1>Our Global Campus</h1>
+        <p>Join a community of scholars</p>
+        <div class="row">
+            <div class="campus-colmn">
+                <img src="images/washington.png" alt="">
+                <div class="layer">
+                    <h3>WASINGTON</h3>
+                </div>
+            </div>
+            <div class="campus-colmn">
+                <img src="images/london.png" alt="">
+                <div class="layer">
+                    <h3>LONDON</h3>
+                </div>
+            </div>
+            <div class="campus-colmn">
+                <img src="images/newyork.png" alt="">
+                <div class="layer">
+                    <h3>NEWYORK</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <div class="row">
+            <div class="facilities-col">
+                <img src="images/library.png">
+                <h3>World Class Library</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Pellentesque aliquet turpis nulla.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/basketball.png">
+                <h3>Largest Play Ground</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Pellentesque aliquet turpis nulla.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/cafeteria.png">
+                <h3>Tasty and Healthy Food</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Pellentesque aliquet turpis nulla.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials" id="review">
+        <h1>What Our Student Says</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <div class="row">
+            <div class="testimonial-col">
+                <img src="images/user1.jpg">
+                <div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit. Pellentesque aliquet turpis nulla, eleifend
+                        faucibus est sollicitudin ut. Maecenas ut venenatis ex,
+                        et dapibus purus.</p>
+                    <h3>Ladysuperstar</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+            </div>
+            <div class="testimonial-col">
+                <img src="images/user2.jpg">
+                <div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit. Pellentesque aliquet turpis nulla, eleifend
+                        faucibus est sollicitudin ut. Maecenas ut venenatis ex,
+                        et dapibus purus.</p>
+                    <h3>Superstar</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+            </div>
+    </section>
+
+    <section class="cta" id="contact">
+        <h1>Enroll For Our Online Courses<br>Anywhere From The
+            World</h1>
+        <a href="" class="hero-btn">CONTACT US</a>
+    </section>
+
+    <section class="footer">
+        <h4>About Us</h4>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Pellentesque aliquet turpis nulla, eleifend faucibus
+            est<br>sollicitudin ut. Maecenas ut venenatis ex, et dapibus
+            purus.</p>
+        <div class="icons">
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-facebook-f"></i>
+        </div>
+        <p>Made with <i class="fa-regular fa-heart"></i> by Eduford</p>
+    </section>
+
+
+
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showmenu() {
+            navLinks.style.right = "0";
+        }
+        function hidemenu() {
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+</body>
+
+</html>
