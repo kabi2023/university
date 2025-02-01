@@ -23,6 +23,7 @@ Check out the live website: [University Website](https://eduford-for-you.netlify
 3. Contact the university for further inquiries.
 
 ## 🎬 Demo
+https://github.com/user-attachments/assets/27e16b75-e4ee-45e9-9111-5efe9d933647
 
 ## 📄 License
 This project is for educational and portfolio purposes.
