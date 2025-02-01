@@ -22,6 +22,8 @@ Check out the live website: [University Website](https://eduford-for-you.netlify
 2. Navigate through the sections to explore university programs and information.
 3. Contact the university for further inquiries.
 
+## 🎬 Demo
+
 ## 📄 License
 This project is for educational and portfolio purposes.
 
