@@ -1,4 +1,4 @@
-# University Website
+# 🏫 University Website
 University Website is a fully responsive website designed to provide a modern and user-friendly experience for students, and visitors. The website offers essential university information, course details, and contact options in a structured and visually appealing layout.
 
 ## ✨ Features
